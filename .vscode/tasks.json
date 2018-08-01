@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "g++ -g x.c -o x",
+            "command": "gcc -g x.c -o x",
             "group": {
                 "kind": "build",
                 "isDefault": true
